@@ -16,7 +16,7 @@ def symptom1():
     n = st.selectbox('Enter symptom 1', ["None"] + list(values),index=0)
     url="./Pages/untitled0.py"
     import csv
-    with open('/Users/jatinagrawal/Downloads/Untitled 2.csv', 'r') as csv_file:
+    with open('Untitled 2.csv', 'r') as csv_file:
     
         csv_reader = csv.reader(csv_file.readlines())  # Read the file into memory as a list of strings
         next(csv_reader)
