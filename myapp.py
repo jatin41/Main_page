@@ -28,6 +28,7 @@ def symptom1():
                     if n in row[i]:
                         data.append(row)
                         st.write(row[0])
+                
             
             for j in range(len(data)):
                 if 'heart disease' in data[j]:
@@ -84,6 +85,8 @@ def symptom2():
                 if m in tow[i]:
                     st.write(tow[0])
                     f.append(tow)
+                else:
+                    print("We currently dont have enough info ")
 
     return f
 
@@ -105,6 +108,8 @@ def symptom3():
                 if o in row[i]:
                     st.write(row[0])
                     g.append(row)
+                else:
+                    print("We currently dont have enough info ")
                     
     return g
 
@@ -121,6 +126,8 @@ def symptom4():
         for i in range(len(row)):
             if p in row[i]:
                 st.write(row[0])
+            else: 
+                print("We currently dont have enough info ")
 data = symptom1()
 if data:
     st.markdown("<h1 style='text-align: center; font-size: 24px; color:red'>Consult the doctor for more info!</h1>", unsafe_allow_html=True)
