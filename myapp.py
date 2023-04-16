@@ -85,8 +85,6 @@ def symptom2():
                 if m in tow[i]:
                     st.write(tow[0])
                     f.append(tow)
-                else:
-                    st.write("We currently dont have enough info ")
 
     return f
 
