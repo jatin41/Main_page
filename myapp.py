@@ -106,8 +106,6 @@ def symptom3():
                 if o in row[i]:
                     st.write(row[0])
                     g.append(row)
-                else:
-                    st.write("We currently dont have enough info ")
                     
     return g
 
@@ -124,8 +122,6 @@ def symptom4():
         for i in range(len(row)):
             if p in row[i]:
                 st.write(row[0])
-            else: 
-                st.write("We currently dont have enough info ")
 data = symptom1()
 if data:
     st.markdown("<h1 style='text-align: center; font-size: 24px; color:red'>Consult the doctor for more info!</h1>", unsafe_allow_html=True)
