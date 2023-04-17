@@ -64,7 +64,7 @@ def symptom1():
                            """,
                            unsafe_allow_html=True
                            )
-                if 'Covid' in data[j]:
+                if 'Covid19' in data[j]:
                    st.write('click here to check for Covid ')
                    st.markdown(
                             """
