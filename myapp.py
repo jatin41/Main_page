@@ -68,7 +68,7 @@ def symptom1():
                    st.write('click here to check for Covid ')
                    st.markdown(
                             """
-                           <a href="https://jatin41-covid-covid-y4gv5m.streamlit.app/" target="_blank">Diabetes</a>
+                           <a href="https://jatin41-covid-covid-y4gv5m.streamlit.app/" target="_blank">Covid 19</a>
                            """,
                            unsafe_allow_html=True
                            )
