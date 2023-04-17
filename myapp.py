@@ -64,6 +64,14 @@ def symptom1():
                            """,
                            unsafe_allow_html=True
                            )
+                if 'Covid' in data[j]:
+                   st.write('click here to check for Covid ')
+                   st.markdown(
+                            """
+                           <a href="https://jatin41-covid-covid-y4gv5m.streamlit.app/" target="_blank">Diabetes</a>
+                           """,
+                           unsafe_allow_html=True
+                           )
        
     return data
 
